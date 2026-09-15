@@ -58,7 +58,7 @@ ZMK_HOLD_TAP(hmr,
 //                    | GUI | LWR | RET/shift |   | space | RSE  | ALT |
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp ESC
-   &kp BSPC &kp A &hml LCTRL S &kp D &hml LGUI F &kp G   &kp H &hmr RGUI J  &kp K     &hmr RCTRL L   &kp SEMI &kp SQT
+   &kp BSPC &hml LALT A &hml LCTRL S &hml LSHFT D &hml LGUI F &kp G   &kp H &hmr RGUI J  &hmr RSHFT K     &hmr RCTRL L   &hmr RALT SEMI &kp SQT
    &kp LCTRL &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RET
                   &kp LGUI &mo L_LOWER &mt LSHFT RET   &kp SPACE &mo L_RAISE &lt RALT TAB
                         >;
